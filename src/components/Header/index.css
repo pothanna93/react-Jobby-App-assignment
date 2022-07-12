@@ -1,0 +1,78 @@
+.nav-container {
+  background-color: #272727;
+  width: 100%;
+  padding: 20px;
+}
+.nav-content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.website-header-logo {
+  width: 60px;
+  height: 26px;
+}
+@media screen and (min-width: 768px) {
+  .website-header-logo {
+    width: 120px;
+    height: 40px;
+  }
+}
+.home-icon {
+  color: #fff;
+  font-size: 30px;
+  margin-left: 16px;
+}
+.home-logout-icons {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+.mobile-logout-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .home-logout-icons {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .large-mode-container {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .large-mode-container {
+    display: none;
+  }
+}
+.home-btn {
+  background-color: transparent;
+  font-size: 16px;
+  color: #fff;
+  margin-left: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.home-job-container {
+  list-style-type: none;
+  display: flex;
+}
+.logout-btn {
+  color: #fff;
+  background-color: #4f46e5;
+  height: 32px;
+  width: 100px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  cursor: pointer;
+}

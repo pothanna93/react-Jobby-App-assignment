@@ -1,0 +1,27 @@
+.job-filter-container {
+  margin-top: 12px;
+}
+.type-employ-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.type-employ-heading {
+  color: #fff;
+  font-size: 18px;
+  font-family: 'roboto';
+  padding-left: 2px;
+}
+.employ-lists {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.check-box {
+  height: 14px;
+}
+.employ-item {
+  display: flex;
+}
+.label-item {
+  color: #fff;
+}

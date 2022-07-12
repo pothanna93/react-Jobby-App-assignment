@@ -1,0 +1,11 @@
+.profile-app-container {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .profile-app-container {
+    flex-direction: row;
+    padding: 20px;
+  }
+}
